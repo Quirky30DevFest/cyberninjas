@@ -1,0 +1,146 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+   
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<style>
+/* Basics */
+ body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background-image: url("http://wallpapercave.com/wp/JW83G98.jpg");
+    background-position: center; 
+}
+.btn-trans-success {
+     border: 2px solid #51A351;
+     color:#51A351;
+     text-decoration: none;
+}  
+button {
+    float: right;
+    margin-right: 95px;
+    margin-top: 0px;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #acd6ef; /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 45px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+#container {
+    position: fixed;
+    width: 340px;
+    height: 370px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -170px;
+    
+  
+}
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: white;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family :'Asap', sans-serif;
+}
+p a {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+ -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+p a :hover{
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 75px;
+    width: 210px;
+    height: 25px;
+  
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+-webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+input[type=text]:hover,
+input[type=password]:hover {
+    border: 1px solid #b6bfc0;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #a8c9e4;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+#lower {
+    
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    font-family :'Asap', sans-serif;
+    color: white;
+    padding-top: 5px;
+    font-size: 35px;
+}
+h1 span {
+  font-weight: 300;
+  color: #Fd4;
+  padding-top: 50px;
+}
+</style>
+<body>
+<br>
+    <div id="container">
+    <h1>Store<span>Talk</span></h1>
+        <form>
+            <input type="text" id="username" name="username" placeholder="Name and Surname">
+            <input type="text" id="employee no" name="employee no" placeholder="Employee No. (Optional)">
+            <input type="text" id="contact no" name="contact no" placeholder="Contact No.">
+            <input type="text" id="email" name="email" placeholder="Email">
+ <a href="Login form.html"><button type="button" class="btn btn-trans btn-trans-danger btn-">Submit</button></a>
+</form>
+            <br>
+            <br>
+        
+    </div>
+    </body>
+</ion-content>
